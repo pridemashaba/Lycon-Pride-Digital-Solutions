@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Lycon Pride Digital Solutions — get in touch for web development, graphic design, e-commerce, and more.">
+    <title>Contact Us | Lycon Pride Digital Solutions</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="nav-container">
+                <a href="index.html" class="logo" aria-label="Lycon Pride Digital Solutions Home">Lycon<span>Pride</span></a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle mobile menu" aria-expanded="false">&#9776;</button>
+                <ul class="nav-links" id="navLinks" role="menubar">
+                    <li role="none"><a href="index.html" role="menuitem">Home</a></li>
+                    <li role="none"><a href="services.html" role="menuitem">Services</a></li>
+                    <li role="none"><a href="portfolio.html" role="menuitem">Portfolio</a></li>
+                    <li role="none"><a href="about.html" role="menuitem">About</a></li>
+                    <li role="none"><a href="contact.html" class="active" role="menuitem" aria-current="page">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="page-hero" aria-label="Page header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Let's start a conversation about your digital needs</p>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-page" aria-label="Contact information and form">
+        <div class="container">
+            <div class="contact-grid">
+
+                <!-- INFO -->
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>We'd love to hear about your project. Reach out and we'll get back to you as soon as possible.</p>
+
+                    <div class="contact-details">
+
+                        <div class="contact-item">
+                            <div class="contact-icon" aria-hidden="true">&#9993;</div>
+                            <p><a href="mailto:nhletelopride7@gmail.com">nhletelopride7@gmail.com</a></p>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon" aria-hidden="true">&#128222;</div>
+                            <p><a href="tel:+27663048659">+27 (66) 304-8659</a></p>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon" aria-hidden="true">&#128222;</div>
+                            <p><a href="tel:+27632631059">+27 (63) 263-1059</a></p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- FORM -->
+                <div class="contact-form">
+                    <form
+                        action="https://formspree.io/f/xreownyz"
+                        method="POST"
+                        id="contactForm"
+                        novalidate
+                        aria-label="Contact form"
+                    >
+                        <!-- Formspree reply-to: uses the email the visitor enters -->
+                        <input type="hidden" name="_replyto" value="">
+
+                        <label for="name" class="sr-only">Full Name</label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Full Name"
+                            autocomplete="name"
+                            required
+                            aria-required="true"
+                        >
+
+                        <label for="email" class="sr-only">Email Address</label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Email Address"
+                            autocomplete="email"
+                            required
+                            aria-required="true"
+                        >
+
+                        <label for="phone" class="sr-only">Phone Number</label>
+                        <input
+                            type="tel"
+                            name="phone"
+                            id="phone"
+                            placeholder="Phone Number (optional)"
+                            autocomplete="tel"
+                        >
+
+                        <label for="service" class="sr-only">Select a Service</label>
+                        <select name="service" id="service" required aria-required="true">
+                            <option value="" disabled selected>Select a Service</option>
+                            <option value="Web Development">Web Development</option>
+                            <option value="Graphic Design">Graphic Design</option>
+                            <option value="E-Commerce Solutions">E-Commerce Solutions</option>
+                            <option value="Website Maintenance">Website Maintenance</option>
+                            <option value="Domain & Hosting Setup">Domain &amp; Hosting Setup</option>
+                            <option value="Startup Packages">Startup Packages</option>
+                        </select>
+
+                        <label for="message" class="sr-only">Your Message</label>
+                        <textarea
+                            name="message"
+                            id="message"
+                            rows="5"
+                            placeholder="Tell us about your project..."
+                            required
+                            aria-required="true"
+                        ></textarea>
+
+                        <button type="submit" class="btn-primary">Send Message</button>
+                        <div id="formMessage" role="alert" aria-live="polite"></div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Lycon Pride Digital Solutions</h3>
+                    <p>Empowering businesses through innovative digital solutions since 2025.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><a href="mailto:nhletelopride7@gmail.com">nhletelopride7@gmail.com</a></p>
+                    <p><a href="tel:+27663048659">+27 (66) 304-8659</a></p>
+                    <p><a href="tel:+27632631059">+27 (63) 263-1059</a></p>
+                </div>
+                <div class="footer-section">
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Lycon Pride Digital Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="main.js"></script>
+
+    <!-- Form enhancement: sync _replyto with email field -->
+    <script>
+        (function () {
+            var emailInput = document.getElementById('email');
+            var replyTo = document.querySelector('input[name="_replyto"]');
+            if (emailInput && replyTo) {
+                emailInput.addEventListener('input', function () {
+                    replyTo.value = emailInput.value;
+                });
+            }
+
+            var mobileBtn = document.getElementById('mobileMenuBtn');
+            var navLinks = document.getElementById('navLinks');
+            if (mobileBtn && navLinks) {
+                mobileBtn.addEventListener('click', function () {
+                    var expanded = mobileBtn.getAttribute('aria-expanded') === 'true';
+                    mobileBtn.setAttribute('aria-expanded', String(!expanded));
+                    navLinks.classList.toggle('open');
+                });
+            }
+        })();
+    </script>
+
+</body>
+</html>
